@@ -1,0 +1,10 @@
+[package]
+name = "snake"
+version = "0.0.1"
+edition = "2024"  # ✅ Enables latest syntax/features
+
+[dependencies]
+
+
+[addresses]
+snake = "0x0"
