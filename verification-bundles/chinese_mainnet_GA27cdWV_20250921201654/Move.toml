@@ -1,0 +1,10 @@
+[package]
+name = "chinese"
+version = "0.0.1"
+edition = "2024"  # ✅ Enables latest syntax/features
+
+[dependencies]
+
+
+[addresses]
+chinese = "0x0"
