@@ -1,0 +1,9 @@
+[package]
+name = "tutu"
+version = "0.0.1"
+edition = "2024"  # ✅ Enables latest syntax/features
+
+[addresses]
+std = "0x1"
+sui = "0x2"
+tutu = "0x0"
