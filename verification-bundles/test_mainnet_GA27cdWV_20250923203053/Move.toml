@@ -1,0 +1,13 @@
+[package]
+name = "test"
+version = "0.0.1"
+edition = "2024"  # ✅ Enables latest syntax/features
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "mainnet-v1.48.4" }
+MoveStdlib = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/move-stdlib", rev = "mainnet-v1.48.4" }
+
+[addresses]
+std = "0x1"
+sui = "0x2"
+test = "0x0"
